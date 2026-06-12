@@ -15,7 +15,7 @@ const privateCors =
   cors({
 
     origin: [
-      "https://5-shifra-ai-55fv.vercel.app/login"
+      "https://5-shifra-ai-55fv.vercel.app/"
     ],
 
     credentials: true
