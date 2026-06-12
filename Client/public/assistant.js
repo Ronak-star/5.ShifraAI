@@ -648,7 +648,7 @@
 
     const link = document.createElement("link");
     link.rel = "stylesheet";
-    link.href = "https://5-shifra-ai-55fv.vercel.app/login/assistant.css";
+    link.href = "https://5-shifra-ai-55fv.vercel.app//assistant.css";
     document.head.appendChild(link);
 
     const popup = document.createElement("div");
@@ -691,7 +691,7 @@
 
         <div class="shifra-bottom">
             <button class="shifra-mic">
-               <img src="https://5-shifra-ai-55fv.vercel.app/login/mic.svg" class="shifra-mic-icon"/>
+               <img src="https://5-shifra-ai-55fv.vercel.app/mic.svg" class="shifra-mic-icon"/>
             </button>
         </div>
 
@@ -702,7 +702,7 @@
 
     const button = document.createElement("button");
     button.className = `shifra-btn theme-${theme}`;
-    button.innerHTML = `<img src="https://5-shifra-ai-55fv.vercel.app/login/logo.png" />`;
+    button.innerHTML = `<img src="https://5-shifra-ai-55fv.vercel.app/logo.png" />`;
     document.body.appendChild(button);
 
     let open = false;
