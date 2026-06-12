@@ -714,7 +714,7 @@
 
     const loadAssistant = async () => {
         try {
-            const res = await fetch(`http://localhost:8000/api/assistant/config/${userId}`);
+            const res = await fetch(`https://5-shifra-ai.vercel.app/api/assistant/config/${userId}`);
             const data = await res.json();
 
             if (data?.user) {
@@ -861,7 +861,7 @@
 
 
                     const res = await fetch(
-                        "http://localhost:8000/api/assistant/ask",
+                        "https://5-shifra-ai.vercel.app/api/assistant/ask",
                         {
                             method: "POST",
                             headers: {
